@@ -37,8 +37,8 @@ public class AddressBook {
                         break;
                 case 6: addressBookController.searchByCityOrCity();
                         break;
-                case 7:    addressBookController.print();
-                    break;
+                case 7: addressBookController.print();
+                        break;
                 case 8: return;
             }
         }
