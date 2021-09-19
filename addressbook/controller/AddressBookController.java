@@ -100,7 +100,7 @@ public class AddressBookController {
     }
 
     public void sorting() {
-        System.out.println("Enter the type according to which you want to sort : 1)name 2)city 3)state 4)zipcode");
+        System.out.println("Enter the type according to which you want to sort : 1)First Name 2)City 3)state 4)zipcode");
         int option = scan.nextInt();
         switch (option) {
             case 1: this.personList.sort(Comparator.comparing(Person:: getFirstName));

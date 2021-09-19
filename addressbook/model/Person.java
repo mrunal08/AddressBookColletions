@@ -82,7 +82,7 @@ public class Person {
                 ", address ='" + address + '\'' +
                 ", city ='" + city + '\'' +
                 ", state ='" + state + '\'' +
-                ", zip ='" + zip + '\'' +
+                ", zip = '" + zip + '\'' +
                 ", phoneNumber ='" + phoneNumber + '\'' +
                 '}';
     }
